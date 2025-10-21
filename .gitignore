@@ -97,3 +97,10 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Ignore anything that starts with a '.' (e.g. .vs .user .cache etc)
+.*
+
+#Never ignore this file or any other file that starts with git
+!.gitignore
+!.git*
